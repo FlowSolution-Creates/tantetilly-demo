@@ -1,0 +1,46 @@
+:root{
+  /* ---- Huisstijl klant: pas alleen dit blok aan ---- */
+  --primary:#8c4552;        /* hoofdkleur klant */
+  --text:#2f1c20;           /* lopende tekst */
+  --muted:#8b737a;          /* bijschriften */
+  --bg:#f7f1e4;             /* paginaachtergrond */
+  --card:#fffcf6;           /* kaarten en blokken */
+  --border:#e2d5c4;         /* lijnen */
+  --font:'Lora', Georgia, serif;        /* lopende tekst */
+  --font-head:'Playfair Display', serif; /* koppen */
+
+  /* ---- Afgeleiden van de hoofdkleur ---- */
+  --wine:var(--primary);
+  --wine-dark:#6d3340;
+  --wine-deep:#4e2530;
+  --accent:#c9a24a;         /* accentkleur klant */
+  --accent-soft:#e2c887;
+  --rose:#c98b93;
+  --teal:#2f6360;
+
+  /* ---- Interne aliassen, niet aanpassen ---- */
+  --cream:var(--bg);
+  --paper:var(--card);
+  --ink:var(--text);
+  --ink-soft:#54383d;
+  --line:var(--border);
+  --gold:var(--accent);
+  --gold-soft:var(--accent-soft);
+  --wa:#dcf3d3;
+}
+*{box-sizing:border-box;}
+body{margin:0; background:var(--bg); color:var(--text); font-family:var(--font); -webkit-font-smoothing:antialiased; overflow-x:hidden;}
+.wrap{max-width:1000px; margin:0 auto; padding:0 22px 80px; min-width:0;}
+.phone-stage,.pstage,.steps-col,.grow,.grow>div{min-width:0;}
+
+h2{
+  font-family:'Playfair Display',serif; font-weight:700; text-transform:uppercase;
+  font-size:26px; line-height:1.2; margin:0 0 14px; color:var(--wine);
+}
+h3{font-family:'Playfair Display',serif; font-weight:700; text-transform:uppercase; font-size:18px; margin:46px 0 12px; color:var(--wine);}
+.lead{font-size:15px; line-height:1.8; color:var(--ink-soft); max-width:670px; margin:0 0 28px;}
+.lead strong{color:var(--ink); font-weight:600;}
+.kicker{
+  font-family:'JetBrains Mono',monospace; font-size:9.5px; letter-spacing:.22em;
+  text-transform:uppercase; color:var(--gold); margin-bottom:14px;
+}

@@ -1,0 +1,10 @@
+@media (max-width:800px){
+  .calc,.flowmap,.cards,.pn,.split,.opts{grid-template-columns:minmax(0,1fr);}
+  .result{border-left:none; border-top:1px solid #6a3b45; padding-left:0; padding-top:26px;}
+  .topbar nav{display:none;}
+}
+@media (max-width:640px){
+  .phone-stage,.pstage{flex-direction:column;}
+  .phone{margin:0 auto;}
+  .tabs-outer{position:static;}
+}

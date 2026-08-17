@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Gastopvolging · Concept voor Tante Tilly</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400;1,600&family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Lilita+One&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/sections.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<div class="topbar-outer">
+  <div class="topbar">
+    <div class="logo">
+      <div class="l1"><span>T</span><span>A</span><span>N</span><span>T</span><span>E</span></div>
+      <div class="l2"><span>T</span><span>I</span><span class="heart">&#10084;</span><span>L</span><span>L</span><span>Y</span></div>
+    </div>
+    <nav><span>Brasserie</span><span>Roermond</span><span>The Big Family Group</span></nav>
+    <div class="pill">Concept</div>
+  </div>
+</div>
+
+<div class="hero-outer">
+  <div class="hero">
+    <div class="hero-logo">
+      <div class="logo">
+        <div class="l1"><span>T</span><span>A</span><span>N</span><span>T</span><span>E</span></div>
+        <div class="l2"><span>T</span><span>I</span><span class="heart">&#10084;</span><span>L</span><span>L</span><span>Y</span></div>
+      </div>
+    </div>
+    <div class="eyebrow">FlowSolution &middot; voorstel gastopvolging</div>
+    <h1>Tante Tilly onthoudt <span>alles</span></h1>
+    <p>Ze weet nog dat u bij het raam zat. Dat uw dochter jarig was. Dat u die ene wijn zo lekker vond. Een goede tante vergeet zoiets niet, en juist daarom komt u terug. De vraag is alleen: hoe onthoudt u dat bij duizenden gasten tegelijk?</p>
+    <div class="sig">Naar aanleiding van ons telefoongesprek</div>
+  </div>
+</div>
+
+<div class="tabs-outer">
+  <nav class="tabs">
+    <button class="tab active" data-t="vraag"><b>01</b>De vraag</button>
+    <button class="tab" data-t="hoe"><b>02</b>Hoe wij het doen</button>
+    <button class="tab" data-t="nazorg"><b>03</b>De nazorg</button>
+    <button class="tab" data-t="herkenning"><b>04</b>Herkenning</button>
+    <button class="tab" data-t="plan"><b>05</b>Stappenplan</button>
+    <button class="tab" data-t="eerlijk"><b>06</b>Eerlijk verhaal</button>
+  </nav>
+</div>
+
+<div class="wrap">
+
+  <!-- 01 -->
+  <section class="panel active" id="p-vraag">
+    <div class="kicker">Waar het gesprek over ging</div>
+    <h2>Terugkerende gasten<br>en de zorg erna</h2>
+    <p class="lead">Dat was de vraag die u ons meegaf, en dat is precies waar dit voorstel over gaat. <strong>Wij weten niet hoe u het nu aanpakt</strong>, en gaan er dan ook niet vanuit dat er iets misgaat. Waarschijnlijk gebeurt er al meer dan gemiddeld, zeker bij een groep met drie locaties en een eigen gezicht per zaak.<br><br>Wat wij wél weten is waar in deze branche standaard rek zit, en dat zit bijna altijd op hetzelfde punt: het moment nadat de gast de deur uit loopt.</p>
+
+    <div class="callout">
+      <b>Het vertrekpunt.</b> In uw reserveringssysteem staat wie er kwam, hoe vaak en met hoeveel personen. In uw kassa staat wat er besteld werd. Die twee zijn zelden aan elkaar geknoopt, en juist in die combinatie zit wie iemand écht is. Zolang dat gescheiden blijft, kunt u niet weten dat de gast van vanavond hier vorig jaar met dertien man een verjaardag vierde en altijd bij de bourgogne begint.
+    </div>
+
+    <h3>Wat één procent waard is</h3>
+    <p class="lead">Hieronder geen belofte en geen percentage dat wij verzinnen. <strong>U bepaalt zelf de stijging, en ziet direct wat elk procent oplevert.</strong> Dat is bewust zo: wij kennen uw cijfers niet, en niemand kan vooraf garanderen hoeveel gasten terugkomen. Wat wel vaststaat is de rekensom eronder.</p>
+
+    <div class="calc">
+      <div>
+        <h4>Reken zelf mee</h4>
+        <p class="note">Schuif naar uw eigen situatie. Weet u een getal niet precies, dan is een schatting genoeg, het gaat om de orde van grootte.</p>
+        <div class="field">
+          <label>Nieuwe gasten per week <b id="v1">60</b></label>
+          <input type="range" id="s1" min="10" max="300" value="60" step="5">
+        </div>
+        <div class="field">
+          <label>Gemiddelde besteding per gast <b id="v2">&euro;45</b></label>
+          <input type="range" id="s2" min="15" max="120" value="45" step="5">
+        </div>
+        <div class="field">
+          <label>Hoeveel procent haalt u extra terug <b id="v3">+10%</b></label>
+          <input type="range" id="s3" min="1" max="25" value="10" step="1">
+        </div>
+        <p class="note" style="margin-bottom:0;">Wij gaan uit van twee extra bezoeken per teruggehaalde gast. Bewust voorzichtig: wie een tweede keer komt, komt meestal vaker.</p>
+      </div>
+      <div class="result">
+        <div class="rlabel">Extra omzet per jaar</div>
+        <div class="big" id="out">&euro;70.200</div>
+        <div class="rlabel" id="outsub">312 extra bezoeken per jaar</div>
+        <div class="rsmall">Ter vergelijking: dat zijn <b id="outweek">6</b> extra tafels per week die u nu niet had. Meestal gaat het niet om meer gasten binnenhalen, maar om de gasten die er al waren nog één keer terugzien.</div>
+      </div>
+    </div>
+
+    <h3>Waarom juist het tweede bezoek</h3>
+    <p class="lead">Iemand die één keer is geweest heeft nog geen band met de zaak. Er was een avond, en die avond is voorbij. Komt diezelfde persoon een tweede keer, dan verandert er iets: het is niet langer "een restaurant waar ik ooit at" maar "een plek waar ik kom". Vanaf dat moment hoeft u nauwelijks meer moeite te doen.<br><br>Datzelfde geldt voor de gast die één keer per jaar komt. Ook die verdient het om herkend te worden, want wie na twaalf maanden hoort dat u nog weet wat er vorig jaar gevierd werd, komt volgend jaar weer.</p>
+  </section>
+
+  <!-- 02 -->
+  <section class="panel" id="p-hoe">
+    <div class="kicker">Onze werkwijze</div>
+    <h2>Wij bouwen systemen<br>die zelf nadenken</h2>
+    <p class="lead">Wij zijn geen marketingbureau dat mailtjes inplant en geen leverancier van weer een softwarepakket. <strong>Wij bouwen AI-systemen voor bedrijven</strong>, en dat is precies het verschil tussen een systeem dat regeltjes afvinkt en een systeem dat begrijpt wie er aan tafel zat.</p>
+
+    <div class="sources">
+      <div class="src">
+        <div class="tl">Bron 1</div>
+        <h5>Reserveringssysteem</h5>
+        <p>Wie er kwam, hoe vaak, met hoeveel personen, welke dag en welk tijdstip. En hoe lang het geleden is dat ze er waren.</p>
+      </div>
+      <div class="src">
+        <div class="tl">Bron 2</div>
+        <h5>Kassasysteem</h5>
+        <p>Wat er besteld werd, wat de avond opleverde, en welke gerechten of dranken telkens terugkomen bij dezelfde gast.</p>
+      </div>
+    </div>
+
+    <div class="arrows">&#9660;</div>
+
+    <div class="brainrow">
+      <div class="brain">
+        <div class="bl">Het brein ertussen</div>
+        <h4>Hier zit onze AI</h4>
+        <p>Een gewoon systeem kan alleen wat u het van tevoren laat afvinken: "zestig dagen niet geweest, stuur mail nummer drie". Onze AI leest de ruwe geschiedenis van elke gast en trekt daar zelf conclusies uit. Ze ziet dat iemand altijd op zaterdagmiddag komt, met het gezin, en de laatste keren steeds voor de kinderkaart koos. En ze schrijft vervolgens zelf het bericht dat daarbij past, in de toon van Tante Tilly.</p>
+      </div>
+    </div>
+
+    <div class="arrows">&#9660;</div>
+
+    <div class="flowmap">
+      <div class="fm">
+        <div class="step">Wat het oplevert · 1</div>
+        <h4>De gast krijgt iets dat klopt</h4>
+        <p>Geen algemene nieuwsbrief, maar een bericht dat over hem gaat. Een wijnliefhebber hoort over de nieuwe fles, een gezin over de vernieuwde kinderkaart, een groep over de Proeverij.</p>
+      </div>
+      <div class="fm">
+        <div class="step">Wat het oplevert · 2</div>
+        <h4>Kantoor weet wie aandacht verdient</h4>
+        <p>Elke ochtend een kort overzicht: welke gasten dreigen weg te blijven, wie er een mijlpaal haalt, welke zakelijke klant vorig jaar rond deze tijd boekte.</p>
+      </div>
+      <div class="fm">
+        <div class="step">Wat het oplevert · 3</div>
+        <h4>De vloer weet wat er speelt</h4>
+        <p>Bij binnenkomst is bekend dat dit de elfde keer is, dat er vorig jaar een verjaardag was, en dat er altijd bij het raam gezeten wordt.</p>
+      </div>
+    </div>
+
+    <h3>Waarom AI hier het verschil maakt</h3>
+    <p class="lead">Alles wat hierboven staat kán handmatig. Iemand kan bij elke gast een notitie typen, elke maand de lijst doorlopen en zelf berichten schrijven. In de praktijk gebeurt dat bij een handvol vaste gasten waar iemand toevallig aan denkt, en bij de duizenden anderen niet. Niet uit onwil, maar omdat het niet te doen is naast een draaiende zaak.<br><br><strong>Dat is precies het werk waar AI goed in is:</strong> duizenden gastgeschiedenissen doorlezen, patronen eruit halen die een mens nooit zou opvallen, en per gast een voorstel klaarleggen. Het oordeel en de toon blijven bij u, het uitzoekwerk gaat naar de machine.</p>
+
+    <div class="cta">
+      <h4>Wat wij voorstellen</h4>
+      <p>Eén gesprek waarin we kijken welke systemen u gebruikt en wat daar in zit. Daarna bouwen we één flow voor één locatie, zodat u binnen een paar weken ziet wat het doet, voordat er iets groots wordt uitgerold.</p>
+    </div>
+  </section>
+
+  <!-- 03 -->
+  <section class="panel" id="p-nazorg">
+    <div class="kicker">Na het bezoek</div>
+    <h2>De avond is voorbij.<br>Nu begint het pas.</h2>
+    <p class="lead">Hier blijft de meeste omzet liggen, en dit is tegelijk het deel dat het minst gebeurt. Niet uit onwil, maar omdat er geen moment is waarop iemand denkt: die gast van vorige week moet ik even benaderen.<br><br>Hieronder ziet u het begin van die opvolging. <strong>Het stopt niet na een paar berichten</strong>, het loopt door zolang iemand gast is: na elk bezoek opnieuw, bij elke mijlpaal, bij elke verjaardag, en telkens anders naarmate het systeem die gast beter kent.</p>
+
+    <div class="phone-stage">
+      <div class="phone">
+        <div class="phone-screen">
+          <div class="phone-head">
+            <div class="pav"><span>TANTE</span><span>TILLY</span></div>
+            <div>
+              <div class="who">TANTE TILLY</div>
+              <div class="status">online</div>
+            </div>
+          </div>
+          <div class="chat" id="chat">
+            <div class="chip static">Vanavond, 21:24</div>
+            <div class="bub" data-d="300">
+              <div class="meta">20 min na het afrekenen</div>
+              Bedankt voor uw bezoek vanavond, het was gezellig! Hoe was het bij Tante Tilly? 🍷
+              <div class="time">21:24 ✓✓</div>
+            </div>
+            <div class="bub" data-d="1000">
+              <div class="meta">Recensie in het gesprek</div>
+              U kunt hier meteen uw ervaring achterlaten: [beoordeling geven]
+              <div class="time">21:24 ✓✓</div>
+            </div>
+            <div class="bub guest" data-d="1800">
+              <div class="stars">★★★★★</div>
+              "Heerlijk gegeten, fijne bediening en wat een gezellige zaak"
+              <div class="time">21:39</div>
+            </div>
+            <div class="bub" data-d="2500">
+              <div class="meta">Doorzetten naar Google</div>
+              Wat fijn om te horen! Zullen we dit meteen op Google zetten? Uw tekst staat al klaar, u hoeft alleen te bevestigen 🙏
+              <div class="time">21:40 ✓✓</div>
+            </div>
+            <div class="chip" data-d="3200">Een week later</div>
+            <div class="bub" data-d="3500">
+              <div class="meta">Aanleiding op maat</div>
+              De kaart is net gewisseld met het seizoen en er staan nieuwe gerechten op waarvan we dachten: die zijn voor u 🍽️ Zin om een tafel te reserveren?
+              <div class="time">19:12 ✓✓</div>
+            </div>
+            <div class="chip" data-d="4300">Drie weken later</div>
+            <div class="bub" data-d="4600">
+              <div class="meta">Klein gebaar</div>
+              We hebben u nog niet teruggezien. Bij uw volgende bezoek staat het eerste glas van Tante Tilly klaar 🥂
+              <div class="time">18:03 ✓✓</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="steps-col">
+        <div class="fstep">
+          <div class="ts">20 min</div>
+          <div>
+            <h4>Meteen, niet morgen</h4>
+            <p>Nog voordat de gast thuis is. Op dat moment zit de avond nog vers in het geheugen en is de sfeer er nog. Wacht u tot de volgende dag, dan is het moment weg.</p>
+            <div class="why"><b>Waarom dit werkt:</b> een reactie geven kost dan bijna geen moeite, want de gast is er nog met zijn hoofd. Hoe later het bericht, hoe meer het aanvoelt als huiswerk.</div>
+          </div>
+        </div>
+
+        <div class="fstep">
+          <div class="ts">Recensie</div>
+          <div>
+            <h4>Meteen invullen, niet doorklikken</h4>
+            <p>De gast geeft sterren en schrijft in één keer een echte tekst, in hetzelfde gesprek. Geen apart formulier, geen extra stap. Wat er daarna gebeurt, hangt af van de beoordeling.</p>
+            <div class="split">
+              <div class="sc pos">
+                <h5>Bij een hoge beoordeling</h5>
+                <p>De geschreven tekst wordt klaargezet voor Google. Eén bevestiging en de recensie staat er, terwijl de avond nog vers is. Dat scheelt de gast al het werk, en dat is precies waarom het nu meestal niet gebeurt.</p>
+              </div>
+              <div class="sc neg">
+                <h5>Bij een lage beoordeling</h5>
+                <p>De bedrijfsleider krijgt het direct binnen, met naam en tekst, zodat er nog dezelfde week persoonlijk contact is. Een klacht die netjes opgelost wordt levert vaak een trouwere gast op dan een avond waar niets misging.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="fstep">
+          <div class="ts">7 dagen</div>
+          <div>
+            <h4>Een reden die klopt</h4>
+            <p>Geen "kom nog eens langs", maar iets dat aansluit bij deze gast. Wie graag wijn drinkt hoort over de nieuwe fles, een gezelschap over de Proeverij, iemand die van een avondje uit houdt over de eerstvolgende dinnershow.</p>
+            <div class="why"><b>Waarom dit werkt:</b> "kom eens langs" laat de gast zelf een reden en een datum bedenken, en dat gebeurt niet. Een concrete aanleiding neemt die stap weg.</div>
+          </div>
+        </div>
+
+        <div class="fstep">
+          <div class="ts">21 dagen</div>
+          <div>
+            <h4>Iets geven, niets afhalen</h4>
+            <p>Is er nog geen reservering, dan volgt een klein gebaar: het eerste glas, een amuse, iets van het huis. Wát u weggeeft bepaalt u zelf, dat hoort bij uw zaak en niet bij ons.</p>
+            <div class="why"><b>Waarom geen korting:</b> korting werkt in de horeca slecht. Het drukt uw marge, het trekt mensen die op de volgende aanbieding wachten, en het zegt eigenlijk "we hebben omzet nodig". Iets weggeven kost u de inkoopprijs, voelt als gastvrijheid, en zegt "we willen u terug". Dat is een compleet ander gesprek aan tafel.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h3>Gebaren die het goed doen</h3>
+    <p class="lead">Wat u weggeeft is minder belangrijk dan wat het uitstraalt. Deze werken omdat ze persoonlijk aanvoelen en u ze zelf in de hand houdt.</p>
+
+    <div class="cards">
+      <div class="card">
+        <div class="num">01 · De vaste bestelling</div>
+        <h4>Precies wat ze toch al drinken</h4>
+        <p>Begint iemand altijd met cocktails, dan is de eerste ronde van de zaak bij het volgende bezoek. Het raakt precies waar diegene voor komt, en daardoor voelt het als een attentie in plaats van een aanbieding.</p>
+        <div class="quote"><span class="lbl">Bericht</span>"De eerste twee cocktails zijn van ons als u deze maand nog eens langskomt."</div>
+      </div>
+      <div class="card">
+        <div class="num">02 · De rustige uren</div>
+        <h4>Vullen wat toch leeg staat</h4>
+        <p>Een gebaar dat alleen geldt op de avonden dat het stil is. U vult lege stoelen zonder uw drukke zaterdag weg te geven, en de gast krijgt het gevoel iets bijzonders te krijgen.</p>
+        <div class="quote"><span class="lbl">Bericht</span>"Doordeweeks is het bij ons wat rustiger. Komt u dan, dan zet de chef er een extra gerechtje bij."</div>
+      </div>
+      <div class="card">
+        <div class="num">03 · De verjaardag</div>
+        <h4>Vragen voordat er gezocht wordt</h4>
+        <p>Twee weken voor een verjaardag een bericht sturen betekent dat u de reservering claimt voordat iemand überhaupt gaat nadenken over waar het gevierd wordt.</p>
+        <div class="quote"><span class="lbl">Bericht</span>"Uw verjaardag komt eraan. Viert u 'm bij Tante Tilly, dan proosten wij mee: de eerste fles bubbels is van het huis."</div>
+      </div>
+      <div class="card">
+        <div class="num">04 · De mijlpaal</div>
+        <h4>Benoemen wat niemand bijhoudt</h4>
+        <p>Het vijfde of tiende bezoek noemen kost bijna niets en wordt onthouden. Het maakt van een gewone gast iemand die ergens bij hoort, en daar komt loyaliteit vandaan.</p>
+        <div class="quote"><span class="lbl">Aan tafel</span>"Dit is uw tiende keer bij ons. Deze fles zetten wij op de rekening van tante."</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 04 -->
+  <section class="panel" id="p-herkenning">
+    <div class="kicker">Waarom dit werkt bij mensen</div>
+    <h2>Gasten komen terug<br>om herkend te worden</h2>
+    <p class="lead">Dit is het hart van het hele voorstel. Mensen komen niet terug voor het eten alleen, dat kunnen ze in Roermond op meer plekken krijgen. <strong>Ze komen terug voor het gevoel dat ze ergens gekend zijn.</strong><br><br>Iedereen kent dat moment: u loopt binnen, iemand zegt "fijn dat u er weer bent, wilt u weer bij het raam?", en op slag is het niet zomaar een restaurant meer. Dat gevoel is precies wat mensen bedoelen als ze zeggen dat ergens hun stamkroeg is. Het kost niets, het staat op geen menukaart, en het is de sterkste reden waarom iemand voor de tiende keer terugkomt.<br><br>Het probleem is alleen dat dit gevoel nu afhangt van wie er die avond toevallig achter de bar staat en wat diegene zich herinnert. <strong>Wat wij bouwen is precies dat: het geheugen, maar dan voor al uw gasten tegelijk.</strong></p>
+
+    <div class="pstage">
+      <div class="pcard">
+        <div class="pl">Gastprofiel</div>
+        <div class="pname">Familie Janssen</div>
+        <div class="pstat">● Laatste bezoek 9 weken geleden</div>
+        <div class="pdiv"></div>
+        <div class="pl">Wat de AI heeft opgemerkt</div>
+        <div class="ptags">
+          <span class="ptag c">4 à 5 personen</span>
+          <span class="ptag b">Zaterdagmiddag</span>
+          <span class="ptag">Houdt van witte wijn</span>
+        </div>
+        <div class="pdiv"></div>
+        <div class="prow"><span>Kwam normaal elke</span><b>5 weken</b></div>
+        <div class="prow"><span>Gemiddelde besteding</span><b>&euro; 210</b></div>
+        <div class="prow"><span>Aantal bezoeken</span><b>11</b></div>
+        <div class="prow"><span>Vorig jaar juni</span><b>verjaardag</b></div>
+      </div>
+
+      <div style="flex:1; min-width:290px;">
+        <h3 style="margin-top:0;">Dezelfde situatie, een ander bericht</h3>
+        <p class="lead" style="margin-bottom:18px;">Zonder die kennis is er maar één bericht mogelijk, en dat gaat naar iedereen tegelijk.</p>
+        <div class="ba">
+          <div class="bar before">
+            <span class="lbl">Zonder herkenning</span>
+            "We hebben u een tijd niet gezien. Kom gezellig weer eens langs!"
+          </div>
+          <div class="bar after">
+            <span class="lbl">Met herkenning</span>
+            "Er staat een nieuwe witte wijn op de kaart waarvan we dachten: die is voor u. Zaterdagmiddag hebben we nog een mooie tafel vrij voor het hele gezelschap."
+          </div>
+        </div>
+        <div class="why"><b>Wat dit twee keer oplevert:</b> het haalt niet alleen iemand terug, het verkoopt ook een betere fles. Wie hoort dat er speciaal aan hem gedacht is, kiest zelden de huiswijn. Dezelfde kennis verhoogt dus én het aantal bezoeken én wat een bezoek opbrengt.</div>
+      </div>
+    </div>
+
+    <h3>Ook de gast die één keer per jaar komt</h3>
+    <p class="lead">Niet iedereen komt elke maand, en dat hoeft ook niet. Iemand die één keer per jaar een verjaardag of een jubileum bij u viert is net zo waardevol, maar wordt bijna nooit opgevolgd omdat diegene in geen enkele lijst met vaste gasten voorkomt.<br><br>Juist bij die groep is herkenning het krachtigst. Wie na twaalf maanden een bericht krijgt waarin staat dat u nog weet wat er vorig jaar gevierd werd, denkt meteen: <strong>daar gaan we weer heen.</strong></p>
+
+    <div class="cards">
+      <div class="card">
+        <div class="num">Een jaar later</div>
+        <h4>De jaarlijkse gast</h4>
+        <p>Het systeem ziet dat er vorig jaar rond deze tijd iets gevierd werd, en meldt dat op tijd, voordat er ergens anders gereserveerd wordt.</p>
+        <div class="quote"><span class="lbl">Bericht</span>"Vorig jaar vierde u hier een verjaardag met het hele gezelschap. Komt dat dit jaar weer aan? We houden graag alvast een tafel vrij."</div>
+      </div>
+      <div class="card">
+        <div class="num">Aan tafel</div>
+        <h4>De begroeting die klopt</h4>
+        <p>Bij binnenkomst is bekend dat dit de elfde keer is en wat er meestal gedronken wordt. Geen zoekwerk, het staat er gewoon.</p>
+        <div class="quote">"Fijn dat u er weer bent. We hebben net een nieuwe witte op de kaart, zal ik daar een glaasje van inschenken?"</div>
+      </div>
+      <div class="card">
+        <div class="num">Aan tafel</div>
+        <h4>De klacht die niet vergeten is</h4>
+        <p>Wie vorige keer ontevreden was, wordt gemarkeerd. De bedrijfsleider loopt langs vóórdat er iets misgaat, niet erna.</p>
+        <div class="quote">"Fijn dat u er weer bent. We hebben uw opmerking van vorige keer ter harte genomen."</div>
+      </div>
+      <div class="card">
+        <div class="num">Aan tafel</div>
+        <h4>De voorkeurstafel</h4>
+        <p>Wie altijd bij het raam zit, krijgt bij het raam. Het kost niets en het is precies waar het gevoel van "mijn plek" vandaan komt.</p>
+        <div class="quote">"We hebben uw tafel bij het raam voor u vrijgehouden."</div>
+      </div>
+    </div>
+
+    <h3>Hoe komt dit bij uw team terecht?</h3>
+    <p class="lead">Daar is niet één antwoord op, want dat hangt af van de systemen die u gebruikt. <strong>Dit zijn de opties</strong>, en welke het wordt bepalen we samen in het eerste gesprek. Wat in alle gevallen geldt: er komt geen extra scherm bij waar iemand apart in moet inloggen.</p>
+
+    <div class="opts">
+      <div class="opt">
+        <div class="on">Optie A</div>
+        <h4>In uw eigen systeem</h4>
+        <p>Wat de AI herkent wordt teruggeschreven naar de gastnotitie en de labels in uw huidige reserveringssysteem. Wie de reservering opent ziet het staan, op precies dezelfde plek als nu.</p>
+        <p>Dit is de mooiste oplossing, maar het pakket moet er wel voor openstaan. Laat het een koppeling toe, dan regelen wij het. Zo niet, dan zijn er genoeg andere manieren.</p>
+        <div class="for">Voor gastvrouw, host, telefoon</div>
+      </div>
+      <div class="opt">
+        <div class="on">Optie B</div>
+        <h4>Een bericht 's ochtends</h4>
+        <p>Eén kort bericht per dag naar de bedrijfsleiding, via WhatsApp of mail: wie er vandaag aandacht verdient en waarom, met een voorstel erbij.</p>
+        <p>Geen inloggen, twee minuten lezen.</p>
+        <div class="for">Voor kantoor en bedrijfsleiding</div>
+      </div>
+      <div class="opt">
+        <div class="on">Optie C</div>
+        <h4>In de briefing vooraf</h4>
+        <p>Een overzichtje met de bijzonderheden van vanavond: wie er voor de tiende keer komt, wie iets viert, waar op gelet moet worden.</p>
+        <p>Op papier of op een scherm, net wat past.</p>
+        <div class="for">Voor bediening en runners</div>
+      </div>
+    </div>
+
+    <h3>Het ochtendoverzicht</h3>
+    <p class="lead">Zo zou dat overzicht eruit kunnen zien. Elke naam met de reden erbij, en een voorstel voor wat er zou moeten gebeuren.</p>
+
+    <div class="dash">
+      <div class="dash-h"><h4>Wie verdient vandaag aandacht</h4><span>09:00</span></div>
+      <div class="grow">
+        <div class="gav" style="background:var(--wine);">FJ</div>
+        <div style="flex:1;">
+          <div class="gtop"><div class="gname">Familie Janssen</div><div class="gflag f1">Dreigt weg te blijven</div></div>
+          <div class="greason">Kwam normaal elke 5 weken, nu 9 weken niet geweest. Besteedt bovengemiddeld. Dit is het moment, over een maand bent u uit hun routine verdwenen.</div>
+          <div class="gact">Voorstel: nieuwe witte wijn noemen en een tafel op zaterdagmiddag aanbieden</div>
+        </div>
+      </div>
+      <div class="grow">
+        <div class="gav" style="background:var(--gold);">PD</div>
+        <div style="flex:1;">
+          <div class="gtop"><div class="gname">P. Dekkers</div><div class="gflag f2">Tiende bezoek</div></div>
+          <div class="greason">Komt meestal donderdagavond met partner, begint altijd met een aperitief. Gisteren was het tiende bezoek.</div>
+          <div class="gact">Voorstel: bij binnenkomst laten weten dat het eerste glas van het huis is</div>
+        </div>
+      </div>
+      <div class="grow">
+        <div class="gav" style="background:#8a6b24;">VB</div>
+        <div style="flex:1;">
+          <div class="gtop"><div class="gname">Van Bergen B.V.</div><div class="gflag f2">Vorig jaar rond deze tijd</div></div>
+          <div class="greason">Boekte vorig jaar in november een bedrijfsavond voor 40 personen. Wie nu belt, legt de datum vast voordat zij zelf gaan rondkijken.</div>
+          <div class="gact">Voorstel: contactpersoon bellen over de mogelijkheden voor dit jaar</div>
+        </div>
+      </div>
+      <div class="grow">
+        <div class="gav" style="background:var(--teal);">MH</div>
+        <div style="flex:1;">
+          <div class="gtop"><div class="gname">M. Hendriks</div><div class="gflag f3">Tweede bezoek</div></div>
+          <div class="greason">Eerste bezoek 18 dagen geleden, gisteren voor het eerst teruggekomen. Het belangrijkste moment in de hele relatie.</div>
+          <div class="gact">Geen actie nodig, de opvolging loopt automatisch door</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 05 -->
+  <section class="panel" id="p-plan">
+    <div class="kicker">Van idee naar draaiend systeem</div>
+    <h2>Zo pakken we het aan</h2>
+    <p class="lead">Niet alles tegelijk. We beginnen bij het deel dat het snelst iets oplevert en bouwen daarop verder, zodat u onderweg al kunt zien of het werkt.</p>
+
+    <div class="plan">
+      <div class="pstep">
+        <div class="dot">1</div>
+        <h4>Een gesprek zonder aannames</h4>
+        <div class="dur">Eén afspraak</div>
+        <p>Wij komen blanco binnen. We horen graag hoe u het nu doet, wat er al goed loopt en waar u tegenaan loopt. Pas daarna kijken we welke systemen u gebruikt voor reserveringen en kassa, en wat daar precies in zit. Vaak blijkt er meer bruikbaars in te zitten dan verwacht.</p>
+      </div>
+      <div class="pstep">
+        <div class="dot">2</div>
+        <h4>De twee bronnen aan elkaar knopen</h4>
+        <div class="dur">Eerste bouwronde</div>
+        <p>Reserveringen en bonnen worden gekoppeld, zodat er per gast één geschiedenis ontstaat. Hier komt ook aan bod hoe er bij u wordt in- en uitgeboekt, want hoe netter dat gebeurt, hoe scherper het systeem wordt. Dat bespreken we in het eerste gesprek.</p>
+      </div>
+      <div class="pstep">
+        <div class="dot">3</div>
+        <h4>Beginnen met één zaak en één flow</h4>
+        <div class="dur">Proefperiode</div>
+        <p>We zetten de opvolging na een bezoek aan bij één locatie, inclusief het recensiemoment. Klein beginnen betekent dat u binnen een paar weken ziet hoeveel mensen reageren, hoeveel recensies erbij komen en hoeveel gasten terugkomen, voordat er iets groots wordt uitgerold.</p>
+      </div>
+      <div class="pstep">
+        <div class="dot">4</div>
+        <h4>De herkenning aanzetten</h4>
+        <div class="dur">Tweede bouwronde</div>
+        <p>Zodra de basis loopt komen de persoonlijke patronen erbij: voorkeuren, bezoekritme, gezelschap, verjaardagen en wat er vorig jaar gevierd werd. Vanaf hier wordt elk bericht anders per gast, en gaat dezelfde kennis ook naar de vloer.</p>
+      </div>
+      <div class="pstep">
+        <div class="dot">5</div>
+        <h4>Uitbreiden en meten</h4>
+        <div class="dur">Doorlopend</div>
+        <p>Daarna de andere locaties erbij, en elke maand een overzicht: hoeveel berichten verstuurd, hoeveel gasten teruggekomen, hoeveel recensies erbij. Wat niet werkt gaat eruit, wat werkt breiden we uit.</p>
+      </div>
+    </div>
+
+    <div class="closing">
+      <h3>Wat er nodig is om te beginnen</h3>
+      <p>Een gesprek van een half uur, en daarna toegang tot de gegevens die u al heeft. Verder verandert er in de zaak helemaal niets, tot het moment dat de eerste gasten uit zichzelf terugkomen.</p>
+    </div>
+  </section>
+
+  <!-- 06 -->
+  <section class="panel" id="p-eerlijk">
+    <div class="kicker">Zonder mooie praatjes</div>
+    <h2>Wat het oplevert<br>en wat het kost</h2>
+    <p class="lead">U krijgt vaker telefoontjes over dit soort systemen. Daarom hieronder ook de punten die tegen dit voorstel pleiten, zodat u zelf kunt afwegen.</p>
+
+    <div class="pn">
+      <div class="pncol">
+        <div class="pnh">Wat het oplevert</div>
+        <div class="pnc">
+          <ul>
+            <li><b>De gegevens gaan eindelijk werken.</b> Wat nu alleen bewaard wordt, wordt ingezet om gasten terug te halen.</li>
+            <li><b>Het geldt voor alle gasten.</b> Handmatige notities komen bij een handvol mensen terecht, dit bij iedereen.</li>
+            <li><b>Meer recensies</b>, doordat de gast alleen nog hoeft te bevestigen in plaats van zelf naar Google te zoeken.</li>
+            <li><b>Klachten komen eerder binnen</b>, dus voordat iemand stilletjes wegblijft of het online zet.</li>
+            <li><b>Hogere besteding per bezoek</b>, omdat u aan tafel weet wat iemand waardeert.</li>
+            <li><b>Ook de jaarlijkse gast wordt bereikt</b>, terwijl die nu in geen enkele lijst voorkomt.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="pncol">
+        <div class="pnh">Wat ertegenin gaat</div>
+        <div class="pnc">
+          <ul>
+            <li><b>Uw huidige pakket kan misschien al iets hiervan.</b> De vraag is vooral of het in de praktijk ook gebruikt wordt.</li>
+            <li><b>Het vraagt netjes werken.</b> Worden gasten niet consequent aan hun reservering gekoppeld, dan klopt de herkenning ook niet.</li>
+            <li><b>Het kost aandacht van uw team.</b> De persoonlijke berichten werken het best, maar iemand moet ze wel versturen.</li>
+            <li><b>Maatwerk betekent onderhoud.</b> Een standaardpakket wordt door de leverancier bijgehouden, dit door ons.</li>
+            <li><b>Het effect komt niet direct.</b> Vaste gasten bouwt u op over maanden, niet over weken.</li>
+            <li><b>Te veel berichten werkt averechts.</b> De grens tussen persoonlijk en opdringerig is dun en moet bewaakt worden.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <h3>Waarom wij denken dat dit werkt</h3>
+    <p class="lead">Geen beloftes over percentages, wel de redenering erachter.</p>
+
+    <div class="cards">
+      <div class="card">
+        <div class="num">01</div>
+        <h4>Geef iets, geef geen korting</h4>
+        <p>Korting kost u marge en trekt mensen die wachten tot de volgende actie. Het zegt tegen de gast: het is rustig, we hebben omzet nodig.</p>
+        <p>Iets weggeven doet het omgekeerde. Een glas of een amuse kost u de inkoopprijs, maar voelt als gastvrijheid. En als dat glas ook nog precies is wat diegene altijd drinkt, dan is het geen aanbieding meer maar een attentie. Dat is het verschil tussen een klant en een gast.</p>
+      </div>
+      <div class="card">
+        <div class="num">02</div>
+        <h4>Een aanleiding is beter dan een uitnodiging</h4>
+        <p>"Kom nog eens langs" legt het werk bij de gast: die moet zelf bedenken waarom en wanneer, en dat gebeurt niet.</p>
+        <p>Een nieuwe kaart, een fles die net binnen is, een dinnershow met een datum, een rustige avond met een vrije tafel: dat is een aanleiding die er al ligt. De gast hoeft alleen nog ja te zeggen.</p>
+      </div>
+      <div class="card">
+        <div class="num">03</div>
+        <h4>Op tijd zijn, en niemand overslaan</h4>
+        <p>Een gast die zes weken weg is, is nog terug te halen. Na een half jaar bent u uit de routine verdwenen en is er een veel groter gebaar nodig voor hetzelfde resultaat.</p>
+        <p>Daarom kijkt het systeem naar het ritme van elke gast apart. Iemand die maandelijks komt verdient na zes weken een bericht. Iemand die jaarlijks komt na elf maanden. Zo valt niemand tussen wal en schip, ook de gast niet die het zich maar één keer per jaar kan veroorloven.</p>
+      </div>
+      <div class="card">
+        <div class="num">04</div>
+        <h4>Het moet mensenwerk blijven voelen</h4>
+        <p>Zodra een gast merkt dat er een machine schrijft, verdwijnt het effect meteen. Daarom doet ons systeem het uitzoekwerk en het onthouden, terwijl de toon en het contact van u blijven.</p>
+        <p>Dat is ook waarom we niet alles automatisch versturen. De berichten die er het meest toe doen, gaan er pas uit als iemand van u erop heeft gekeken.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="note">
+    Dit concept is gemaakt naar aanleiding van ons telefoongesprek en dient als vertrekpunt voor een gesprek, niet als kant-en-klaar voorstel. Alle namen, cijfers en berichten zijn verzonnen ter illustratie. De rekenmodule gebruikt uitsluitend de waarden die u zelf invult.
+  </footer>
+
+</div>
+
+<script src="js/chat.js"></script>
+<script src="js/calc.js"></script>
+<script src="js/tabs.js"></script>
+
+</body>
+</html>
